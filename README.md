@@ -10,6 +10,7 @@ Full-stack product engineer. I build early-stage, AI-native products end to end 
 
 | Package | What it does | Install |
 |---|---|---|
+| [ai-slop-linter](https://github.com/Bubblegunn/ai-slop-linter) | A linter for the tells of machine writing in commit messages, PR descriptions and READMEs: twenty sourced rules, a score per file, safe fixes, an Action and a commit hook. It lists tells; it never guesses who wrote the text | `npx ai-slop-linter README.md` |
 | [product-engineer](https://github.com/Bubblegunn/product-engineer) | An agent skill: your coding agent restates work as a customer outcome, writes a plain-language "For the customer" block in every commit and PR, and never calls unobserved work done | `npx skills add Bubblegunn/product-engineer` |
 | [proactive-gate](https://github.com/Bubblegunn/proactive-gate) | LILA's delivery gate as a zero-dependency library: twelve ordered checks (consent, quiet hours, trust ramp, dismissal cooldown, daily budget), a reason on every rejection, a replay CLI | `npm i proactive-gate` |
 | [workproof](https://github.com/Bubblegunn/workproof) | A verifiable engineering report from a private git repository, without showing code: six figures, the command behind each, a hash, and `verify` | `npx workproof` |
